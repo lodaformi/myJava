@@ -12,6 +12,7 @@ public class DateTimeFormatterTest {
         System.out.println(nowStr);
 
 
+
         String dateStr = "2008-10-01 12:32:48";
 
         LocalDateTime date = LocalDateTime.parse(dateStr, formatter);

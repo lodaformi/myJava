@@ -13,6 +13,8 @@ public class Demo02 {
         System.out.println(calendar);
 
 
+        // 月份从0开始算
+        //快速计算某一年的2月份有多少天，先把日期设置到3月1号，往前推算一天就是2月的最后一天
         calendar.set(2000,2,1);
         calendar.add(Calendar.DAY_OF_MONTH,-1);
         System.out.println(calendar.get(Calendar.DAY_OF_MONTH));

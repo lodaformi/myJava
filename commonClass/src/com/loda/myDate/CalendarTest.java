@@ -33,8 +33,5 @@ public class CalendarTest {
         System.out.println(calendar.get(Calendar.YEAR));
         calendar.add(Calendar.DAY_OF_MONTH,-1);  //往前推一天，就是2月的最后一天
         System.out.println(calendar.get(Calendar.DAY_OF_MONTH));
-
-
-
     }
 }
