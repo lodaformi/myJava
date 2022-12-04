@@ -89,7 +89,6 @@
                 },
                 success: function (result) {
                     console.log(result);
-                    // window.location.href = "http://localhost:60101/index"
                     $.ajax({
                         method: "post",
                         url: "http://localhost:60101/flushData",
